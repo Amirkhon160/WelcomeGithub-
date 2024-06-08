@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: #f3d7b7;
+    padding-top: 22px;
+    padding-bottom: 24px;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.link {
+    color: #333333;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.link:hover {
+    transition: ease-in-out 0.2s;
+    color: #0066ff;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.hero {
+    background-color: #f3d7b7;
+    padding-bottom: 257px;
+    padding-top: 100px;
+}
+
+.hero_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero_textbox {
+    width: 464px;
+
+}
+
+.hero_title {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.hero_text {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 47px 0;
+}
+
+.hero_btn {
+    width: 193px;
+    border-radius: 100px;
+    padding: 10px 0;
+    background-color: #0a775f;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.hero_btn:hover {
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, #0000001f 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    ;
+    transition: 0.2s ease-in-out;
+    width: 193px;
+    border-radius: 100px;
+    padding: 10px 0;
+    background-color: #ffffff;
+    color: #0a775f;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.hero_img {
+    position: absolute;
+    right: -89px;
+    top: 15px;
+}
+
+.dumaloq {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    animation-name: bot;
+    animation-timing-function: cubic-bezier();
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes bot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
